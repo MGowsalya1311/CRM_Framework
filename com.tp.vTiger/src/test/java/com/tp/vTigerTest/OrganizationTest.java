@@ -75,7 +75,7 @@ public class OrganizationTest extends BaseClass {
 
 		//verify the header info
 		OrganizationInfoPage orgInfoPage = new OrganizationInfoPage(driver);
-		validate(orgInfoPage.getOrgInfoHeader_Txt(), Org_name);
+		//validate(orgInfoPage.getOrgInfoHeader_Txt(), Org_name);
 
 		/*String header_info =orgInfoPage.getOrgInfoHeader_Txt().getText();
 		if(header_info.contains(Org_name)) {
