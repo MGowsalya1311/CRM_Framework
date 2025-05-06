@@ -14,7 +14,7 @@ import com.tp.vTiger.generic.ObjectRepository.VendorInfoPage;
 import com.tp.vTiger.generic.WebDriverUtility.UtilityClassObject;
 
 
-//@Listeners(com.tp.vTiger.generic.ListenerUtility.ListenerImplementation.class)
+@Listeners(com.tp.vTiger.generic.ListenerUtility.ListenerImplementation.class)
 public class VendorTest extends BaseClass {
 	String vendor_name = null;
 	@Test

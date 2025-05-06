@@ -16,7 +16,7 @@ import com.tp.vTiger.generic.WebDriverUtility.UtilityClassObject;
  *
  */
 
-//@Listeners(com.tp.vTiger.generic.ListenerUtility.ListenerImplementation.class)
+@Listeners(com.tp.vTiger.generic.ListenerUtility.ListenerImplementation.class)
 public class LeadTest extends BaseClass{
 	
 	String lead_lastname,company,leadsource,industry = null;

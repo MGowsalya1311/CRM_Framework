@@ -24,7 +24,7 @@ import com.tp.vTiger.generic.WebDriverUtility.UtilityClassObject;
  * Test script :3 create contact with support date
  * 
  */
-//@Listeners(com.tp.vTiger.generic.ListenerUtility.ListenerImplementation.class)
+@Listeners(com.tp.vTiger.generic.ListenerUtility.ListenerImplementation.class)
 
 public class ContactTest extends BaseClass {
 	String contact_name = null;
