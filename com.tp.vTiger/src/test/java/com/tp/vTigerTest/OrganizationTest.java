@@ -16,7 +16,7 @@ import com.tp.vTiger.generic.ObjectRepository.OrganizationInfoPage;
 import com.tp.vTiger.generic.WebDriverUtility.JavaUtility;
 import com.tp.vTiger.generic.WebDriverUtility.UtilityClassObject;
 import com.tp.vTiger.generic.WebDriverUtility.WebDriverUtility;
-@Listeners(com.tp.vTiger.generic.ListenerUtility.ListenerImplementation.class)
+//@Listeners(com.tp.vTiger.generic.ListenerUtility.ListenerImplementation.class)
 public class OrganizationTest extends BaseClass {
 	String contact_name = null;
 	String Org_name,last_name,industry,type,phone_number = null;
